@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
   .content {
     width: 80%;
   }
@@ -95,5 +95,17 @@
 
   h2 {
     font-size: 1rem;
+  }
+} */
+
+
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 29.2px;
+  }
+
+  .container {
+    width: 100%;
   }
 }

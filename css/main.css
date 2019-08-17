@@ -32,8 +32,8 @@ header, footer {
 	align-items: center;
 }
 
-.logo img {
-	width: 100%;
+header {
+	margin-top: 2.3rem;
 }
 
 .logo p {
@@ -54,7 +54,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-	margin: 0 1.45rem;
+	margin: 0 0.725rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 0.6rem;
@@ -103,7 +103,7 @@ p, a, i {
 
 .content > img {
 	border-radius: 50%;
-	width: 690px;
+	width: var(--img-size);
 }
 
 h3 {
