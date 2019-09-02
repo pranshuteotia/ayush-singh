@@ -6,8 +6,12 @@
 	--heading-color: #5D5D5D;
 	--text-color: #A0A0A0;
 	--highlight-color: #009AE0;
-	--img-size : 300px;
+	--img-size : 500px;
 	--container-size: calc((1424/1920)*100%)
+}
+
+html {
+	font-size: 1.5rem;
 }
 
 body {
@@ -40,7 +44,7 @@ header, footer {
 }
 
 .logo img {
-	height: 100px;
+	height: 200px;
 }
 
 nav > ul {
