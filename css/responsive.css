@@ -97,15 +97,3 @@
     font-size: 1rem;
   }
 } */
-
-
-
-@media only screen and (max-width: 1400px) {
-  html {
-    font-size: 29.2px;
-  }
-
-  .container {
-    width: 100%;
-  }
-}

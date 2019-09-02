@@ -2,16 +2,12 @@
 
 /* VARIABLES */
 :root {
-	--header-footer-height: 7rem;
+	--header-footer-height: 1rem;
 	--heading-color: #5D5D5D;
 	--text-color: #A0A0A0;
 	--highlight-color: #009AE0;
-	--img-size : calc((690/840)*100%);
+	--img-size : 300px;
 	--container-size: calc((1424/1920)*100%)
-}
-
-html {
-	font-size: 40px;
 }
 
 body {
@@ -28,23 +24,23 @@ body {
 header, footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 3.6rem;
+	padding: 0 3rem;
 	align-items: center;
-}
-
-header {
-	margin-top: 2.3rem;
 }
 
 .logo p {
 	font-weight: bold;
 	color: var(--heading-color);
-	font-size: 1.4rem;
+	font-size: 1rem;
 }
 
 .logo {
 	display: flex;
 	align-items: center;
+}
+
+.logo img {
+	height: 100px;
 }
 
 nav > ul {
@@ -54,10 +50,10 @@ nav > ul {
 }
 
 nav > ul > li > a {
-	margin: 0 0.725rem;
+	margin: 0 1rem;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 0.6rem;
+	font-size: 1rem
 }
 
 nav > ul > li > a:hover {
@@ -85,9 +81,18 @@ p, a, i {
 	font-size: 2.2rem;
 }
 
+.controls {
+	display: flex;
+	justify-content: center;
+}
+
+.controls button {
+	margin: 0 10px;
+	cursor: pointer;
+}
+
 .content {
-	width: 100%;
-	margin: 0 auto -4rem auto;
+	margin: auto;
 	display: flex;
 	align-items: center;
 }

@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Ayush Singh | Home</title>
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/temp.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -25,9 +25,15 @@
 			</nav>
 		</header>
 
-		<div class="container">
+		<div class="controls">
+			<input type="radio" name="style" value="Style1" checked>Style1
+			<input type="radio" name="style" value="Style2">Style2
+			<button id="changeStyles">Change Styles</button>
+		</div>
 
-			<h1 id="main_content">Hi I'm <span class="highlight">Ayush</span><br/> Design Intern @Classplus</h1>
+		<h1 id="main_content">Hi I'm <span class="highlight">Ayush</span><br/> Design Intern @Classplus</h1>
+
+		<div class="container">
 
 			<div class="content">
 				<img src="images/Classplus.png" alt="Classplus logo">
@@ -68,7 +74,7 @@
 		</div>
 
 		<footer>
-			<p>If you’re looking to work with me or want to chat over coffee,<br> do mail me at <a href="ayushsingh@gmail.com">ayushsinghmails@gmail.com</a></p>
+			<p>If you’re looking to work with me or want to chat over coffee,<br> do mail me at <a href="ayushsingh@gmail.com"><span class="highlight">ayushsinghmails@gmail.com</span></a></p>
 
 			<div class="social-media">
 				<i class="fab fa-behance" title="Behance"></i>
@@ -77,5 +83,7 @@
 				<i class="fab fa-linkedin-in" title="LinkedIn"></i>
 			</div>
 		</footer>
+
+		<script src="js/script.js"></script>
 	</body>
 </html>
