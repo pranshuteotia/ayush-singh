@@ -1,4 +1,4 @@
-/* @media only screen and (max-width: 1400px) {
+ @media only screen and (max-width: 1400px) {
   .content {
     width: 80%;
   }
@@ -10,13 +10,32 @@
     height: 250px;
   }
 
-  .content {
-    margin: auto;
-    margin-bottom: -4rem;
+  header, footer {
+    padding: 0 2rem;
   }
 
-  header, footer {
-    padding: 0 5rem;
+  .logo p {
+    font-size: 2rem;
+  }
+
+  .logo img {
+    height: 150px;
+  }
+
+  #main_content {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+
+  footer p, i {
+    font-size: 1rem;
   }
 }
 
@@ -61,27 +80,6 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .content img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .content {
-    margin: auto;
-  }
-
-  footer {
-    flex-direction: column;
-    padding: 2rem;
-    text-align: center;
-  }
-
-  #main_content, h2 {
-    font-size: 1.5rem;
-  }
-}
-
 @media only screen and (max-width: 630px) {
   .content, .content:nth-child(odd) {
     flex-direction: column;
@@ -96,4 +94,30 @@
   h2 {
     font-size: 1rem;
   }
-} */
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .content {
+    margin: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #main_content, h2 {
+    font-size: 1.5rem;
+  }
+}
