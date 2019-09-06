@@ -2,16 +2,13 @@
 
 /* VARIABLES */
 :root {
-	--header-footer-height: 7rem;
+	--header-footer-height: 1rem;
 	--heading-color: #5D5D5D;
 	--text-color: #A0A0A0;
 	--highlight-color: #009AE0;
-	--img-size : calc((690/840)*100%);
-	--container-size: calc((1424/1920)*100%)
-}
-
-html {
-	font-size: 40px;
+	--hover-color: #000;
+	--img-size : 500px;
+	--container-size: calc((1424/1920)*100%);
 }
 
 body {
@@ -19,7 +16,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	height: 100vh;
 }
 
@@ -28,23 +24,23 @@ body {
 header, footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 3.6rem;
+	padding: 0 3rem;
 	align-items: center;
-}
-
-header {
-	margin-top: 2.3rem;
 }
 
 .logo p {
 	font-weight: bold;
 	color: var(--heading-color);
-	font-size: 1.4rem;
+	font-size: 3rem;
 }
 
 .logo {
 	display: flex;
 	align-items: center;
+}
+
+.logo img {
+	height: 200px;
 }
 
 nav > ul {
@@ -54,14 +50,14 @@ nav > ul {
 }
 
 nav > ul > li > a {
-	margin: 0 0.725rem;
+	margin: 0 1rem;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 0.6rem;
+	font-size: 1rem
 }
 
 nav > ul > li > a:hover {
-	color: var(--highlight-color);
+	color: var(--hover-color);
 }
 
 /* NAVIGATION END */
@@ -82,11 +78,10 @@ p, a, i {
 #main_content, h2 {
 	text-align: center;
 	font-weight: bold;
-	font-size: 2.2rem;
+	font-size: 4rem;
 }
 
 .content {
-	width: 100%;
 	margin: auto;
 	display: flex;
 	align-items: center;
@@ -106,12 +101,20 @@ p, a, i {
 	width: var(--img-size);
 }
 
+h3 {
+	font-size: 2rem;
+}
+
 .description p {
-  font-size: 0.8rem;
+	font-size: 1.5rem;
+}
+
+footer {
+	padding: 1.5rem 3rem;
 }
 
 footer p {
-	font-size: 0.8rem;
+	font-size: 1.2rem;
 }
 
 .social-media {
@@ -123,16 +126,21 @@ footer p {
 
 i {
 	margin: 0 1rem;
-	font-size: 1.175rem;
+	font-size: 1.5rem;
 	cursor: pointer;
 }
 
 i:hover {
 	transform: scale(1.3);
-	color: var(--highlight-color);
+	color: var(--hover-color);
 }
 
 .highlight {
 	color: var(--highlight-color);
+	font-weight: bold;
+}
+
+.highlight-link {
+	color: var(--hover-color);
 	font-weight: bold;
 }

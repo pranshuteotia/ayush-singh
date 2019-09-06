@@ -1,13 +1,10 @@
  @media only screen and (max-width: 1400px) {
-  .content {
-    width: 80%;
-  }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   .content img {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
   }
 
   header, footer {
@@ -22,6 +19,10 @@
     height: 150px;
   }
 
+  .container {
+    width: 90%;
+  }
+
   #main_content {
     font-size: 3rem;
   }
@@ -31,7 +32,7 @@
   }
 
   .description p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   footer p, i {
@@ -103,8 +104,8 @@
   }
 
   .content img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 
   .content {
