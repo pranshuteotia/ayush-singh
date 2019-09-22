@@ -90,7 +90,8 @@ p, a, i {
   flex-direction: column;
 	align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 1rem
+	animation: intro 1s eas-in;		
 }
 
 .content > img {
@@ -140,4 +141,15 @@ i:hover {
 .highlight-link {
 	color: var(--hover-color);
 	font-weight: bold;
+}
+
+/* ANIMATIONS */
+@keyframes intro {
+	form {
+		visibility: none;
+	}
+
+	to {
+		visibility: visible;
+	}
 }
