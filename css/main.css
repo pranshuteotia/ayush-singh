@@ -78,10 +78,14 @@ p, a, i {
 	color: var(--text-color);
 }
 
-#main_content, h2 {
+#main_content {
 	text-align: center;
 	font-weight: bold;
 	font-size: 4rem;
+}
+
+h2 {
+	text-align: center;
 }
 
 .content {
@@ -91,10 +95,10 @@ p, a, i {
 	align-items: center;
   text-align: center;
   padding: 1rem
-	animation: intro 1s eas-in;		
+	animation: intro 1s eas-in;
 }
 
-.content > img {
+.content  img, .job-desc img {
 	border-radius: 50%;
 	width: var(--img-size);
 }
@@ -141,6 +145,12 @@ i:hover {
 .highlight-link {
 	color: var(--hover-color);
 	font-weight: bold;
+}
+
+
+.job-desc {
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 /* ANIMATIONS */
