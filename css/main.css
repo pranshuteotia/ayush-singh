@@ -104,7 +104,7 @@ h2 {
 	animation: intro 1s eas-in;
 }
 
-.content  img, .job-desc img {
+.content  img {
 	border-radius: 50%;
 	width: var(--img-size);
 }
@@ -153,10 +153,18 @@ i:hover {
 	font-weight: bold;
 }
 
+.work {
+		direction: rtl;
+}
 
 .job-desc {
-	display: flex;
-	flex-direction: row-reverse;
+	text-align: left;
+}
+
+/* Work specifi html pages */
+.container img {
+	width: 400px;
+	margin: auto;
 }
 
 /* ANIMATIONS */
