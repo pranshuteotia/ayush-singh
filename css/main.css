@@ -95,7 +95,7 @@ h2 {
 }
 
 .content {
-	margin: 1rem auto;
+	margin: 1rem;
 	display: flex;
   flex-direction: column;
 	align-items: center;
@@ -115,6 +115,10 @@ h3 {
 
 .description p {
   font-size: 1.5rem;
+}
+
+.details h3 {
+	margin: 0;
 }
 
 footer {
