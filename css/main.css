@@ -1,183 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/* VARIABLES */
 :root {
-	--header-footer-height: 1rem;
-	--heading-color: #5D5D5D;
-	--text-color: #A0A0A0;
 	--highlight-color: #009AE0;
-	--hover-color: #000;
-	--img-size : 500px;
-	--container-size: calc((1424/1920)*100%);
 }
 
 body {
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 100vh;
-}
-
-/* NAVIGATION */
-
-header, footer {
-	display: flex;
-	justify-content: space-between;
-	padding: 0 3rem;
-	align-items: center;
-}
-
-.logo p {
-	font-weight: bold;
-	color: var(--heading-color);
-	font-size: 3rem;
-}
-
-.logo {
-	display: flex;
-	align-items: center;
-}
-
-.logo img {
-	height: 200px;
-}
-
-nav > ul {
-	display: flex;
-	list-style-type: none;
-	margin: 0;
-}
-
-nav > ul > li > a {
-	margin: 0 1rem;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 1rem
-}
-
-nav > ul > li > a:hover {
-	color: var(--hover-color);
-}
-
-/* NAVIGATION END */
-
-.container {
-	width: var(--container-size);
-	margin: auto;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	color: var(--heading-color);
-}
-
-p, a, i, ul {
-	color: var(--text-color);
-}
-
-ul {
-	list-style-type: none;
 	padding: 0;
 }
 
-#main_content {
+.container {
 	text-align: center;
-	font-weight: bold;
-	font-size: 4rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
-	text-align: center;
-	margin: 0;
+nav a{
+	text-decoration: none;
 }
 
-.content {
-	margin: 1rem;
+.navbar {
+	padding: 0 1rem;
+	list-style-type: none;
 	display: flex;
-  flex-direction: column;
-	align-items: center;
-  text-align: center;
-  padding: 1rem
-	animation: intro 1s eas-in;
+	justify-content: space-between;
+	text-transform: uppercase;
 }
 
-.content  img {
-	border-radius: 50%;
-	width: var(--img-size);
+.section {
+	padding: 1rem;
 }
 
-h3 {
-	font-size: 2rem;
-}
-
-.description p {
-  font-size: 1.5rem;
-}
-
-.details h3 {
-	margin: 0;
-}
-
-footer {
-	padding: 1.5rem 3rem;
-}
-
-footer p {
-	font-size: 1.2rem;
+.section img {
+	max-width: 80%;
+	height: auto;
 }
 
 .social-media {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: var(--header-footer-height);
-}
-
-i {
-	margin: 0 1rem;
-	font-size: 1.5rem;
-	cursor: pointer;
-}
-
-i:hover {
-	transform: scale(1.3);
-	color: var(--hover-color);
+	padding: 2rem 4rem;
+	justify-content: space-between;
 }
 
 .highlight {
 	color: var(--highlight-color);
-	font-weight: bold;
-}
-
-.highlight-link {
-	color: var(--hover-color);
-	font-weight: bold;
-}
-
-.work {
-		direction: rtl;
-}
-
-.job-desc {
-	text-align: left;
-}
-
-/* Work specifi html pages */
-.container img {
-	width: 400px;
-	margin: auto;
-}
-
-/* ANIMATIONS */
-@keyframes intro {
-	form {
-		visibility: none;
-	}
-
-	to {
-		visibility: visible;
-	}
 }

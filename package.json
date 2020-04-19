@@ -1,0 +1,19 @@
+{
+  "name": "ayush-singh",
+  "version": "1.0.0",
+  "description": "Ayush Singh's website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranshuteotia/ayush-singh.git"
+  },
+  "author": "Pranshu Teotia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranshuteotia/ayush-singh/issues"
+  },
+  "homepage": "https://github.com/pranshuteotia/ayush-singh#readme"
+}
