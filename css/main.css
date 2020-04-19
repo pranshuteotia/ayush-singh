@@ -2,6 +2,8 @@
 
 :root {
 	--highlight-color: #009AE0;
+	--main-color: #5d5d5d;
+	--description-color: #666;
 }
 
 body {
@@ -12,10 +14,17 @@ body {
 .container {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	color: var(--main-color);
 }
 
 nav a{
 	text-decoration: none;
+}
+
+.brand {
+	padding: 1rem;
+	font-weight: bold;
+	font-size: 2rem;
 }
 
 .navbar {
@@ -35,10 +44,18 @@ nav a{
 	height: auto;
 }
 
+.description p{
+	color: var(--description-color);
+}
+
 .social-media {
 	display: flex;
 	padding: 2rem 4rem;
 	justify-content: space-between;
+}
+
+.social-media a {
+	color: var(--description-color);
 }
 
 .highlight {
